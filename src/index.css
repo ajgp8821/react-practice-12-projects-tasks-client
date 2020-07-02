@@ -268,21 +268,21 @@ aside  {
 
 
 
-.tarea-enter,
-.proyecto-enter {
+.task-enter,
+.project-enter {
   opacity: 0;
 }
-.tarea-enter-active,
-.proyecto-enter-active {
+.task-enter-active,
+.project-enter-active {
   opacity: 1;
   transition: opacity 200ms;
 }
-.tarea-exit,
-.proyecto-exit {
+.task-exit,
+.project-exit {
   opacity: 1;
 }
-.tarea-exit-active,
-.proyecto-exit-active {
+.task-exit-active,
+.project-exit-active {
   opacity: 0;
   transition: opacity 200ms;
 }

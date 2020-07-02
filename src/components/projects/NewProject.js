@@ -28,7 +28,7 @@ const NewProject = () => {
         e.preventDefault();
 
         // Validar el proyecto
-        if (name === '') {
+        if (name.trim() === '') {
             formValidate();
             return;
         }

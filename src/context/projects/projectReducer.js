@@ -32,11 +32,13 @@ export default ( state, action ) => {
         case FORM_VALIDATE:
             return {
                 ...state,
-                formError: true
+                formError: true,
+                formErrorDuplicate: false
             }
         case FORM_VALIDATE_DUPLICATE:
             return {
                 ...state,
+                formError: false,
                 formErrorDuplicate: true
             }
         case ACTUAL_PROJECT:
